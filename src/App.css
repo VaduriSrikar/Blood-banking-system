@@ -1,0 +1,232 @@
+#container{ 
+    width: 100%; 
+    height: 100%; 
+} 
+#header{ 
+    width: 100%; 
+    height: 70px; 
+    background:red; 
+   border-bottom: 1px solid #ddd;
+} 
+#content{ 
+    width: 100%; 
+    height: calc(100% - 110px); 
+    background: #fdf1f4; 
+} 
+#content img{
+  margin-top: 40px;
+  width:85%;
+  height:85%;
+  text-align: center;
+}
+#footer{ 
+    width: 100%; 
+    height: 40px; 
+    background: white; 
+} 
+#header .logo{ 
+    width: 40px; 
+    position: relative; 
+    float: left; 
+    top: 10px; 
+    margin-left: 10px; 
+} 
+#header .logoText{ 
+    position: relative; 
+    float: left; 
+    top: 18px; 
+    margin-left: 10px; 
+    font-size: 24pt; 
+    font-weight: bold; 
+    color: white;
+} 
+#header .logoText span{ 
+    color: #88787c; 
+} 
+#header .signinIcon{ 
+    width: 40px; 
+    position: relative; 
+    float: right; 
+    top: 10px; 
+    margin-right: 10px; 
+    cursor: pointer; 
+} 
+#header .signinText{ 
+    position: relative; 
+    float: right; 
+    top: 25px; 
+    margin-right: 10px; 
+    font-size: 12pt; 
+    cursor: pointer; 
+    color: white;
+} 
+#header .signinText:hover, 
+.signinIcon:hover + .signinText 
+{ 
+    text-decoration: underline; 
+} 
+#footer { 
+    position: relative; 
+    text-align: center;
+    top: 15px; 
+    margin-left: 10px; 
+    font-size: 9pt;    
+} 
+#footer .copyrightText{
+  font-size: 17pt;
+  color: black;
+  
+}
+
+#content { 
+   text-align: center
+} 
+#popup{ 
+    width: 100%; 
+    height: 100%; 
+    background: rgb(0, 0, 0, 0.25); 
+    position: fixed; 
+    z-index: 999; 
+    display: none; 
+} 
+#popupWindow{ 
+    width: 300px; 
+    height: 500px; 
+    background: white; 
+    position: relative; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+} 
+#popupHeader{ 
+    width: 100%; 
+    height: 60px; 
+    line-height: 60px; 
+    background: rgb(250, 0, 0); 
+    font-size: 20pt; 
+    color: white; 
+    text-align: center; 
+    border-top-left-radius: 5px; 
+    border-top-right-radius: 5px; 
+ 
+} 
+#signin{ 
+    width: calc(100% - 10px); 
+    height: calc(100% - 60px); 
+    background: white; 
+    padding: 5px; 
+    border-bottom-left-radius: 5px; 
+    border-bottom-right-radius: 5px; 
+} 
+#signin .usernameLabel{ 
+    display: block; 
+    padding: 10px 0px 3px 0px; 
+} 
+input{ 
+    width: calc(100% - 5px); 
+    height: 30px; 
+    border: 1px solid black; 
+    border-radius: 5px; 
+} 
+#signin .passwordLabel{ 
+    display: block; 
+    padding: 10px 0px 3px 0px; 
+} 
+#signin .forgetpassword{ 
+    display: block; 
+    height: 30px; 
+    line-height: 30px; 
+    text-align: right; 
+    padding-bottom: 10px; 
+    margin-top: 10px; 
+ 
+} 
+#signin .forgetpassword label{ 
+    color: rgb(255, 0,0); 
+    cursor: pointer; 
+} 
+#signin .forgetpassword label:hover{ 
+    color:rgb(255, 60,60); 
+} 
+#signin .siginButton{ 
+    width: 100%; 
+    height: 40px; 
+    line-height: 30px; 
+    background:  rgb(250, 0,0); 
+    color: white; 
+    border-radius: 3px; 
+    cursor: pointer; 
+    border: none; 
+} 
+#signin .siginButton:hover{ 
+    color:  rgb(250,60,60); 
+} 
+#signin .div1{ 
+    width: 100%; 
+    height: 60px; 
+} 
+#signin .div2{ 
+    width: 100%; 
+    font-size: 18pt; 
+    color: gray; 
+    text-align: center; 
+     
+} 
+#signin .div2 label{ 
+    display: block; 
+    font-size: 9pt; 
+    font-weight: bold; 
+    padding-top: 5px; 
+    cursor: pointer; 
+    color: rgb(250, 0, 0); 
+} 
+#signin .div2 label:hover{ 
+    color: rgb(250, 60, 60); 
+} 
+#signup{ 
+    width: calc(100% - 10px); 
+    height: calc(100% - 60px); 
+    padding: 5px; 
+    border-bottom-left-radius: 5px; 
+    border-bottom-right-radius: 5px; 
+    display: none; 
+} 
+#signup .label{ 
+    display: block; 
+    padding: 10px 0px 3px 0px ; 
+} 
+#signup select{ 
+    width: 100%; 
+    height: 30px; 
+    border: 1px solid gray; 
+    border-radius: 5px; 
+} 
+#signup button{ 
+    width: 100%; 
+    height: 40px; 
+    line-height: 30px; 
+    background:  rgb(250, 0,0); 
+    color: white; 
+    border-radius: 3px; 
+    cursor: pointer; 
+    border: none; 
+    margin-top: 10px; 
+} 
+#signup button:hover{ 
+    color:rgb(250, 60,60); 
+} 
+#signup div{ 
+    width: 100%; 
+    font-size: 15pt; 
+    color: gray; 
+    margin-top: 10px; 
+} 
+#signup div span{ 
+    font-size: 25pt; 
+    color:rgb(250, 0,0); 
+    cursor: pointer; 
+     
+} 
+#signup div span:hover{ 
+    color: rgb(250, 60,60); 
+}

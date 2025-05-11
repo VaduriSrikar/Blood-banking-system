@@ -1,0 +1,45 @@
+.menubar
+{
+    width: 100%;
+    height: 100%;
+    background: white;
+}
+.menubar .menuheader
+{
+    width: 100%;
+    font-weight: bold;
+    font-size: 12pt;
+    line-height: 36px;
+    background:whitesmoke;
+    float: left;
+}
+.menubar .menuheader img ,.menubar .menulist ul li img
+{
+    width: 20px;
+    margin: 8px;
+    float: left;
+}
+.menubar .menulist
+{
+    margin: 2px;
+    float: left;
+    width: calc(100% - 4px);
+    height: calc(100% - 40px);
+    background:whitesmoke;
+    overflow: auto;
+
+}
+.menubar .menulist ul
+{
+    margin: 0;
+    padding: 0px;
+    width: 100%;
+    list-style-type: none;
+}
+.menubar .menulist ul li{
+    width: 100%;
+    line-height: 34px;
+    margin-top: 2px;
+    background: whitesmoke;
+
+}
